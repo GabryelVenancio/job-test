@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Test</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Agencia Newton</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Quem Somos</a></li>
+            <li><a href="especialidades.html">Especialidades</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Contato</h2>
+        <form action="https://formsubmit.co/gabrielvenanciocleffs@gmail.com" method="POST" class="form">
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <textarea name="message" id="message" required></textarea>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+            <button type="submit">Send</button>
+       </form>
+    </main>
+    <footer>
+        <div id="endereco">
+            <p>
+                Rua Vergueiro, 3558 
+                - Vila Mariana - São Paulo - SP
+                CEP: 04102-001
+            </p>
+        </div>
+        <div id="redes">
+            <ul>
+                <li><a href="https://www.instagram.com/agencianewton/" target="_blank"><img src="img/instagram.png"
+                            alt="Nosso instagram"></a></li>
+                <li><a href="https://www.linkedin.com/company/agencianewton/about/" target="_blank"><img src="img/linkedin.png"
+                            alt="Nosso Linkedin"></a></li>
+                <li><a href="https://www.facebook.com/agencianewton/?locale=pt_BR" target="_blank"><img src="img/facebook.png"
+                            alt="Nosso facebook"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        function abrir() {
+            document.getElementsByTagName("nav")[0].style.left = "0px";
+        }
+
+        function fechar() {
+            document.getElementsByTagName("nav")[0].style.left = "-150px";
+        }
+    </script>
+
+
+</body>
+
+</html>

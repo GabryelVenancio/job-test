@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Test</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Agencia Newton</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Quem Somos</a></li>
+            <li><a href="especialidades.html">Especialidades</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Pesquisar...">
+                <button class="search-button">Pesquisar</button>
+            </div>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Quem Somos</h2>
+
+        <div id="home">
+            <p><span>Somos uma agência que nasceu preparada, com o olhar experiente de quem sabe aonde quer chegar. Vivemos em um mundo engajado e conectado, onde os dados e as relações humanas são os principais veículos para a transformação e onde se renovar todos os dias é essencial para o sucesso.</span></p>
+        </div>
+
+    <div id="imgHome">
+        <img src="./img/blog.png" alt="">
+    </div>
+
+    <footer>
+        <div id="endereco">
+            <p>
+                Rua Vergueiro, 3558 
+                - Vila Mariana 
+                - São Paulo - SP
+                CEP: 04102-001
+            </p>
+        </div>
+        <div id="redes">
+            <ul>
+                <li><a href="https://www.instagram.com/agencianewton/" target="_blank"><img src="img/instagram.png"
+                            alt="Nosso instagram"></a></li>
+                <li><a href="https://www.linkedin.com/company/agencianewton/about/" target="_blank"><img src="img/linkedin.png"
+                            alt="Nosso Linkedin"></a></li>
+                <li><a href="https://www.facebook.com/agencianewton/?locale=pt_BR" target="_blank"><img src="img/facebook.png"
+                            alt="Nosso facebook"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        function abrir() {
+            document.getElementsByTagName("nav")[0].style.left = "0px";
+        }
+
+        function fechar() {
+            document.getElementsByTagName("nav")[0].style.left = "-150px";
+        }
+    </script>
+
+
+</body>
+
+</html>
